@@ -84,7 +84,7 @@ const ServiceHero = () => {
                     src="/images/Facebook.svg" 
                     alt="Facebook" 
                     className="h-8 md:h-10 opacity-50 hover:opacity-100 transition-opacity"
-                    fill
+                    fill 
                 />
               </div>
             </SwiperSlide>
