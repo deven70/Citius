@@ -26,7 +26,8 @@ const ServiceHero = () => {
                 <Image
                     src="/images/Placeholder_image.svg"
                     alt="Citius Cloud Logo"
-                    fill
+                    width={500}
+                    height={500}
                 />
             </div>
         </div>
@@ -62,7 +63,8 @@ const ServiceHero = () => {
                     src="/images/Google.svg" 
                     alt="Google" 
                     className="h-8 md:h-10 opacity-50 hover:opacity-100 transition-opacity"
-                    fill
+                    width={120}
+                    height={40}
                 />
               </div>
             </SwiperSlide>
@@ -73,7 +75,8 @@ const ServiceHero = () => {
                     src="/images/YouTube.svg" 
                     alt="YouTube" 
                     className="h-8 md:h-10 opacity-50 hover:opacity-100 transition-opacity"
-                    fill
+                    width={120}
+                    height={40}
                 />
               </div>
             </SwiperSlide>
@@ -84,7 +87,8 @@ const ServiceHero = () => {
                     src="/images/Facebook.svg" 
                     alt="Facebook" 
                     className="h-8 md:h-10 opacity-50 hover:opacity-100 transition-opacity"
-                    fill 
+                    width={120}
+                    height={40} 
                 />
               </div>
             </SwiperSlide>

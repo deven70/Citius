@@ -45,7 +45,7 @@ const CloudService = () => {
             <Image
                 src="/images/banner.svg" 
                 alt="Cloud Services Banner" 
-                fill
+                width={600} height={400}
                 className="max-w-full h-auto object-contain"
             />
           </div>

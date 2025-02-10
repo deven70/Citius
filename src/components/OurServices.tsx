@@ -26,7 +26,8 @@ const OurServices = () => {
                 <Image
                     src="/images/devlopment.svg" 
                     alt="DevOps Icon"
-                    fill
+                    width={50}
+                    height={50}
                 />
             </div>
             <h3>DevOps & Modernization</h3>
@@ -39,7 +40,8 @@ const OurServices = () => {
                 <Image
                     src="/images/digital-transformation.svg" 
                     alt="Digital Transformation Icon"
-                    fill
+                    width={50}
+                    height={50}
                 />
             </div>
             <h3>Digital Transformation</h3>
@@ -52,7 +54,8 @@ const OurServices = () => {
                 <Image
                     src="/images/business-service.svg" 
                     alt="Business Continuity Icon"
-                    fill
+                    width={50}
+                    height={50}
                 />
             </div>
             <h3>Business Continuity Services</h3>
@@ -65,7 +68,8 @@ const OurServices = () => {
                 <Image
                     src="/images/security.svg" 
                     alt="Security Services Icon"
-                    fill
+                    width={50}
+                    height={50}
                 />
             </div>
             <h3>Security Services</h3>

@@ -23,7 +23,8 @@ const Integrations = () => {
                                 {/* <img src="/images/integrations-grid.svg" alt="Integration Partners" className="w-full max-w-[500px] md:max-w-[600px] object-contain" /> */}
                                 <Image
                                     src="/images/integrations-grid.svg"
-                                    fill
+                                    width={500}
+                                    height={500}
                                     alt="Integration Partners"
                                     className="w-full max-w-[500px] md:max-w-[600px] object-contain"
                                 />
