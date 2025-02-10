@@ -4,6 +4,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import { Container } from './Container';
+import Image from "next/image";
+
 
 const ServiceHero = () => {
   return (
@@ -20,7 +22,12 @@ const ServiceHero = () => {
             </div>
 
             <div>
-                <img src="/images/Placeholder_image.svg" alt="" />
+                {/* <img src="/images/Placeholder_image.svg" alt="" /> */}
+                <Image
+                    src="/images/Placeholder_image.svg"
+                    alt="Citius Cloud Logo"
+                    fill
+                />
             </div>
         </div>
 
@@ -50,17 +57,35 @@ const ServiceHero = () => {
           >
             <SwiperSlide>
               <div className="flex items-center justify-center">
-                <img src="/images/Google.svg" alt="Google" className="h-8 md:h-10 opacity-50 hover:opacity-100 transition-opacity" />
+                {/* <img src="/images/Google.svg" alt="Google" className="h-8 md:h-10 opacity-50 hover:opacity-100 transition-opacity" /> */}
+                <Image
+                    src="/images/Google.svg" 
+                    alt="Google" 
+                    className="h-8 md:h-10 opacity-50 hover:opacity-100 transition-opacity"
+                    fill
+                />
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="flex items-center justify-center">
-                <img src="/images/YouTube.svg" alt="YouTube" className="h-8 md:h-10 opacity-50 hover:opacity-100 transition-opacity" />
+                {/* <img src="/images/YouTube.svg" alt="YouTube" className="h-8 md:h-10 opacity-50 hover:opacity-100 transition-opacity" /> */}
+                <Image
+                    src="/images/YouTube.svg" 
+                    alt="YouTube" 
+                    className="h-8 md:h-10 opacity-50 hover:opacity-100 transition-opacity"
+                    fill
+                />
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="flex items-center justify-center">
-                <img src="/images/Facebook.svg" alt="Facebook" className="h-8 md:h-10 opacity-50 hover:opacity-100 transition-opacity" />
+                {/* <img src="/images/Facebook.svg" alt="Facebook" className="h-8 md:h-10 opacity-50 hover:opacity-100 transition-opacity" /> */}
+                <Image
+                    src="/images/Facebook.svg" 
+                    alt="Facebook" 
+                    className="h-8 md:h-10 opacity-50 hover:opacity-100 transition-opacity"
+                    fill
+                />
               </div>
             </SwiperSlide>
           </Swiper>

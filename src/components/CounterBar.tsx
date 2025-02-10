@@ -1,35 +1,10 @@
 'use client';
-import Image from 'next/image';
 import { Container } from './Container';
-import Counter from '@/common/Counter';
-import { motion } from "framer-motion";
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/autoplay';
 
 const CounterBar = () => {
-  const counters = [
-    {
-      icon: '/images/success-icon.svg',
-      number: 500,
-      title: 'Successful projects'
-    },
-    {
-      icon: '/images/partnership-icon.svg',
-      number: 12,
-      title: 'OME Partnership'
-    },
-    {
-      icon: '/images/year-icon.svg',
-      number: 5,
-      title: 'Years of Experience'
-    },
-    {
-      icon: '/images/countries-icon.svg',
-      number: 12,
-      title: 'Countries Covered'
-    }
-  ];
   return (
     <section className="w-full bg-white">
       <Container>

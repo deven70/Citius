@@ -41,7 +41,7 @@ const FAQ = () => {
           {/* Left Section */}
           <div className="lg:w-[40%]">
             <h2 className="text-[2rem] md:text-[2.5rem] font-[700] text-[#000000] leading-tight mb-6">
-              India's leading NBFC safeguard their RBI License
+                {"India's leading NBFC safeguards their RBI License."}
             </h2>
             <p className="text-[#878C91] mb-8 font-dmSans">
               As a leading digital marketing agency, we are dedicated to providing comprehensive educational resources and answering frequently asked questions to help our clients.

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container } from './Container';
+import Image from 'next/image';
 
 const Integrations = () => {
     return (
@@ -20,7 +20,13 @@ const Integrations = () => {
                                 </button>
                             </div>
                             <div className="w-full md:w-auto flex justify-center px-6 md:px-16">
-                                <img src="/images/integrations-grid.svg" alt="Integration Partners" className="w-full max-w-[500px] md:max-w-[600px] object-contain" />
+                                {/* <img src="/images/integrations-grid.svg" alt="Integration Partners" className="w-full max-w-[500px] md:max-w-[600px] object-contain" /> */}
+                                <Image
+                                    src="/images/integrations-grid.svg"
+                                    fill
+                                    alt="Integration Partners"
+                                    className="w-full max-w-[500px] md:max-w-[600px] object-contain"
+                                />
                             </div>
                         </div>
                     </div>

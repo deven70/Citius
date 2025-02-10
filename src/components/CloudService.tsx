@@ -1,6 +1,8 @@
 // src/components/CloudService.tsx
 import React from 'react';
 import { Container } from './Container';
+import Image from 'next/image';
+
 
 const CloudService = () => {
   return (
@@ -35,10 +37,16 @@ const CloudService = () => {
 
           {/* Hero Diagram */}
           <div className="flex-1 relative flex justify-center items-center p-8">
-            <img 
+            {/* <img 
               src="/images/banner.svg" 
               alt="Cloud Services Banner" 
               className="max-w-full h-auto object-contain"
+            /> */}
+            <Image
+                src="/images/banner.svg" 
+                alt="Cloud Services Banner" 
+                fill
+                className="max-w-full h-auto object-contain"
             />
           </div>
         </div>

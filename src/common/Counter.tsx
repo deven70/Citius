@@ -1,7 +1,7 @@
 import { motion, useSpring, useMotionValue } from "framer-motion";
 import { useEffect, useState } from "react";
 
-const Counter = ({ from = 0, to = 100, duration = 2 }) => {
+const Counter = ({ from = 0, to = 100 }) => {
   // Create a motion value for smooth animation
   const count = useMotionValue(from);
   const spring = useSpring(count, { stiffness: 100, damping: 10 });

@@ -5,7 +5,6 @@ import { Navigation } from 'swiper/modules';
 import styles from './CaseStudy.module.css';
 import 'swiper/css';
 import 'swiper/css/navigation';
-import { Container } from './Container';
 
 interface CaseStudyCardProps {
   title: string;

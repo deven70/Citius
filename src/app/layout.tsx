@@ -1,7 +1,5 @@
 import type { Metadata } from "next";
 import { Inter, Space_Grotesk, Manrope, DM_Sans  } from "next/font/google";
-import MenuBar from "@/components/MenuBar";
-import FooterBar from "@/components/FooterBar";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"], weight: ["300", "400", "500", "600", "700"] });

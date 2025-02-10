@@ -1,8 +1,3 @@
-import Image from "next/image";
-import { Container } from "@/components/Container";
-import TechnologyPartners from "@/components/TechnologyPartners";
-import OurServices from "@/components/OurServices";
-import CounterBar from "@/components/CounterBar";
 import MenuBar_2 from "@/components/MenuBar-2";
 import FooterBar_2 from "@/components/FooterBar-2";
 import ServiceHero from "@/components/Service-hero";

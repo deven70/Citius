@@ -124,8 +124,9 @@ const ClientTestimonials = () => {
                                                     {renderStars(testimonial.rating)}
                                                 </div>
                                                 <h3 className="text-[26px] sm:text-[28px] md:text-[30px] lg:text-[32px] xl:text-[30px] font-extrabold text-[#6D758F]">
-                                                    "Revitalized my work approach"
+                                                    &quot;Revitalized my work approach&quot;
                                                 </h3>
+
                                                 <p className="text-[#6D758F] text-[16px] leading-[24px]">
                                                     {testimonial.quote}
                                                 </p>
