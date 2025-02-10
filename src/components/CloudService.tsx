@@ -7,9 +7,9 @@ import Image from 'next/image';
 const CloudService = () => {
   return (
     // w-full 
-    <section className="flex relative w-full  px-4 md:px-6 lg:px-8 pl-[9.25rem] pr-[9.25rem] pb-[8.31rem] pt-[5rem] bg-[linear-gradient(135deg,#0a192f_0%,#0d1f3a_100%)]">
+    <section className="flex relative w-full pb-[7rem] pt-[3rem] bg-[url('/images/cloud-black.svg')] bg-cover bg-bottom bg-no-repeat">
       <Container>
-        <div className="container flex flex-col lg:flex-row items-center justify-between mx-auto px-4 w-1140 pl-[5rem] pr-[5rem]">
+        <div className="container flex flex-col lg:flex-row items-center justify-between mx-auto px-4 w-1140">
           {/* Hero Content */}
           <div className="flex-1 max-w-[600px] pt-16">
             <h1 className="text-[4rem] mb-6 text-white font-semibold font-manrope">

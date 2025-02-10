@@ -63,7 +63,7 @@ const CaseStudy = () => {
   ];
 
   return (
-    <section className="w-full py-20 bg-white">
+    <section className="w-full pt-20 pb-12 bg-white">
         <div className="container mx-auto px-4 md:px-6">
           <div className="max-w-[90%] mx-auto">
             <div className="mb-12 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">

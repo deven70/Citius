@@ -28,11 +28,12 @@ const ServiceHero = () => {
                     alt="Citius Cloud Logo"
                     width={500}
                     height={500}
+                    style={{ width: "100%", height: "auto" }}
                 />
             </div>
         </div>
 
-        <div className="w-[50%] mt-4">
+        <div className="trusted-by">
           <p className="text-[#9CB0C9] mb-8">Trusted by:</p>
           <Swiper
             modules={[Autoplay]}
@@ -45,7 +46,7 @@ const ServiceHero = () => {
             }}
             breakpoints={{
               640: {
-                slidesPerView: 1,
+                slidesPerView: 3,
               },
               768: {
                 slidesPerView: 1,
@@ -54,7 +55,7 @@ const ServiceHero = () => {
                 slidesPerView: 2,
               },
             }}
-            className="w-[50%] ml-0 mr-auto float-left" 
+            className="swipp" 
           >
             <SwiperSlide>
               <div className="flex items-center justify-center">

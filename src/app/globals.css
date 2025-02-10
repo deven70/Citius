@@ -215,3 +215,25 @@ body {
   color: #255062;
   font-weight: 400;
 }
+
+.trusted-by{
+  width: 50%;
+  margin-top: 1rem;
+}
+
+.swipp{
+  width: 50%;
+  margin-right: auto;
+  margin-left: 0;
+  float: left;
+}
+
+@media screen and (max-width: 768px) {
+  .trusted-by{
+    width: 100%;
+    text-align: center;
+  }
+  .swipp{
+    width: 100%;
+  }
+}

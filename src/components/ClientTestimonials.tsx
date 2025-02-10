@@ -28,7 +28,7 @@ const testimonials: Testimonial[] = [
         name: 'John Smith',
         role: 'CTO',
         company: 'TechCorp',
-        image: '/testimonials/user2.jpg',
+        image: '/images/client-image.svg',
         quote: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
         rating: 5
     },
@@ -63,7 +63,7 @@ const ClientTestimonials = () => {
     };
 
     return (
-        <section className="w-full py-16 bg-white">
+        <section className="w-full pt-12 pb-16 bg-white">
             <div className="container mx-auto">
                 <div className="max-w-[80%] mx-auto">
                     <div className="flex flex-col space-y-8">
@@ -106,7 +106,7 @@ const ClientTestimonials = () => {
                                 {testimonials.map((testimonial) => (
                                     <div
                                         key={testimonial.id}
-                                        className="w-full flex-shrink-0 border-2 border-[#F1F3F7] p-[15px] sm:p-[40px] rounded-[8px]"
+                                        className="w-full h-full flex-shrink-0 border-2 border-[#F1F3F7] p-[15px] sm:p-[40px] rounded-[8px]"
                                     >
                                         <div className="grid md:grid-cols-12 gap-8 items-center">
                                             <div className="md:col-span-4">
