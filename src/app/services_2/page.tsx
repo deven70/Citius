@@ -5,7 +5,6 @@ import KeyFeature from "@/components/KeyFeature";
 import MenuBar_2 from "@/components/MenuBar";
 import Service2Banner from "@/components/Service_2_Banner";
 import Service2HeroSection from "@/components/Service_2_Hero_Section";
-import { Contact } from "lucide-react";
 export default function Services() {
   return (
     <div className="">

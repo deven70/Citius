@@ -29,7 +29,7 @@ const InfraBot = () => {
             Our Vision
           </h3>
           <h2 className="text-[#1E293B] text-4xl md:text-5xl font-bold mb-6">
-            InfraBot's Vision
+            InfraBot&apos;s Vision
           </h2>
           <p className="text-[#64748B] text-lg max-w-2xl">
             Commodo nec mi id ullamcorper vitae augue neque dis nunc lacinia viverra orci diam.
