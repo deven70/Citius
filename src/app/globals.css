@@ -237,3 +237,26 @@ body {
     width: 100%;
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .infra-vision{
+    width: 100%;
+    justify-content: center;
+    display: grid
+  }
+  .infra-main{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+  }
+  .key-feature-image{
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .key-feature-content{
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}

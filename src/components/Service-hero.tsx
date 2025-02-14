@@ -9,14 +9,14 @@ import Image from "next/image";
 
 const ServiceHero = () => {
   return (
-    <div className="w-full py-16 md:py-24 bg-white">
+    <div className="w-full py-16 md:py-24 bg-[url('/images/service-back.svg')] bg-cover bg-bottom bg-no-repeat">
         <Container>
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row gap-16">
             <div >
-                <h2 className="text-sm uppercase text-[#486284] tracking-wide mb-2">SERVICES</h2>
-                <h1 className="text-3xl md:text-4xl lg:text-5xl font-[700] text-[#486284] mb-6">Enterprise Automation</h1>
-                <p className="text-[#8CA2C0] max-w-2xl font-[DM Sans]">
+                <h2 className="text-sm uppercase text-[#ffffff] tracking-wide mb-2">SERVICES</h2>
+                <h1 className="text-3xl md:text-4xl lg:text-5xl font-[700] text-[#ffffff] mb-6">Enterprise Automation</h1>
+                <p className="text-[#ffffff] max-w-2xl font-[DM Sans]">
                     Welcome to Burger Bliss, where we take your cravings to a whole new level! Our mouthwatering burgers are made from 100% beef and are served on freshly baked buns. Welcome to Burger Bliss, where we take your cravings to a whole new level! Our mouthwatering burgers are made from 100% beef and are served on freshly baked buns.
                 </p>
             </div>
@@ -24,7 +24,7 @@ const ServiceHero = () => {
             <div>
                 {/* <img src="/images/Placeholder_image.svg" alt="" /> */}
                 <Image
-                    src="/images/Placeholder_image.svg"
+                    src="/images/Service-wrapper.svg"
                     alt="Citius Cloud Logo"
                     width={500}
                     height={500}
@@ -34,7 +34,7 @@ const ServiceHero = () => {
         </div>
 
         <div className="trusted-by">
-          <p className="text-[#9CB0C9] mb-8">Trusted by:</p>
+          <p className="text-[#ffffff] mb-8">Trusted by:</p>
           <Swiper
             modules={[Autoplay]}
             spaceBetween={30}
